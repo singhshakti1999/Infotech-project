@@ -1,0 +1,70 @@
+﻿.hea {
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.first{
+    width:50%;
+  
+}
+.Second {
+    width:50%;
+}
+
+
+
+
+
+.footer{
+   display:flex;
+   flex-direction:row;
+   justify-content:space-around;           
+}
+.firs {
+    width:300px;
+    
+    margin-bottom:50px;
+    
+    
+}
+.secon{
+    width:250px;
+ 
+    margin-bottom:50px;
+    
+    
+}
+.thir{
+    width:300px;
+    margin-bottom:50px;
+  
+    
+}
+.footer-links {
+    text-decoration:none;
+    list-style:none;
+    text-transform:uppercase;
+    color:#00AB98;
+    
+
+}
+@media only screen and (max-width:1170px) {
+    .footer {
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .firs {
+        width: 100%;
+    }
+
+    .secon {
+        width: 100%;
+    }
+
+    .thir {
+        width: 100%;
+    }
+}
